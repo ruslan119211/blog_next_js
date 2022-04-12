@@ -1,0 +1,22 @@
+.post_wrap{
+  margin-bottom: 35px;
+  .post_wrap__head{
+    margin-bottom: 25px;
+    .title{
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-top: 0;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    small{
+      font-size: 12px;
+    }
+  }
+  .content{
+    font-size: 16px;
+  }
+}

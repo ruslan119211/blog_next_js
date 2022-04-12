@@ -1,0 +1,50 @@
+.section {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #cdcdcd;
+
+  .txt {
+    font-size: 16px;
+    margin-bottom: 0;
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+
+}
+.blog_Wrap{
+  .title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  ul{
+    padding-left: 0;
+    .item{
+      display: flex;
+      padding-bottom: 20px;
+      a{
+        display: block;
+        &:hover{
+          h3{
+            color: blueviolet;
+          }
+        }
+      }
+      h3{
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+        transition: .15s ease-in-out;
+      }
+      small{
+        font-weight: 500;
+      }
+      &:not(:last-child){
+        margin-bottom: 20px;
+        border-bottom: 1px solid #cdcdcd;
+      }
+
+    }
+  }
+}
